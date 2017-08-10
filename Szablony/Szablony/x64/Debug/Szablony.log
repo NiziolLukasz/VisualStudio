@@ -1,0 +1,11 @@
+﻿  Szablony.cpp
+d:\niziol\szablony-20170419t085608z-001\szablony\szablony\szablony.cpp(157): warning C4244: '=': conversion from 'short' to 'char', possible loss of data
+  d:\niziol\szablony-20170419t085608z-001\szablony\szablony\szablony.cpp(146): note: while compiling class template member function 'int LotekS<LosowanieD>::zapisBinarny(std::fstream &)'
+  d:\niziol\szablony-20170419t085608z-001\szablony\szablony\szablony.cpp(104): note: see reference to function template instantiation 'int LotekS<LosowanieD>::zapisBinarny(std::fstream &)' being compiled
+  d:\niziol\szablony-20170419t085608z-001\szablony\szablony\szablony.cpp(85): note: while compiling class template member function 'LotekS<LosowanieD>::LotekS(short,short,std::string)'
+  d:\niziol\szablony-20170419t085608z-001\szablony\szablony\szablony.cpp(61): note: see reference to function template instantiation 'LotekS<LosowanieD>::LotekS(short,short,std::string)' being compiled
+  d:\niziol\szablony-20170419t085608z-001\szablony\szablony\szablony.cpp(61): note: see reference to class template instantiation 'LotekS<LosowanieD>' being compiled
+d:\niziol\szablony-20170419t085608z-001\szablony\szablony\szablony.cpp(161): warning C4244: '=': conversion from 'short' to 'char', possible loss of data
+d:\niziol\szablony-20170419t085608z-001\szablony\szablony\szablony.cpp(166): warning C4244: '=': conversion from 'short' to 'char', possible loss of data
+  Szablony.vcxproj -> D:\Niziol\Szablony-20170419T085608Z-001\Szablony\x64\Debug\Szablony.exe
+  Szablony.vcxproj -> D:\Niziol\Szablony-20170419T085608Z-001\Szablony\x64\Debug\Szablony.pdb (Full PDB)
