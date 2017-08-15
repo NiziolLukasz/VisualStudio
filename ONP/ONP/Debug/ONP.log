@@ -1,0 +1,47 @@
+﻿Build started 18.04.2017 19:42:23.
+     1>Project "F:\Dysk Google\Rumci\Projects\VisualStudio 2015\ONP\ONP\ONP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programs\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\ONP.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Programs\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\ONP.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ONP.cpp
+         ONP.cpp
+     1>f:\dysk google\rumci\projects\visualstudio 2015\onp\onp\onp.cpp(50): error C3861: 'getline': identifier not found
+     1>f:\dysk google\rumci\projects\visualstudio 2015\onp\onp\onp.cpp(55): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (or there is no acceptable conversion)
+         d:\programs\visualstudio\vc\include\ostream(497): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+         d:\programs\visualstudio\vc\include\ostream(477): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+         d:\programs\visualstudio\vc\include\ostream(457): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+         d:\programs\visualstudio\vc\include\ostream(437): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+         d:\programs\visualstudio\vc\include\ostream(417): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+         d:\programs\visualstudio\vc\include\ostream(396): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+         d:\programs\visualstudio\vc\include\ostream(376): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+         d:\programs\visualstudio\vc\include\ostream(355): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+         d:\programs\visualstudio\vc\include\ostream(335): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+         d:\programs\visualstudio\vc\include\ostream(315): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+         d:\programs\visualstudio\vc\include\ostream(290): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+         d:\programs\visualstudio\vc\include\ostream(270): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+         d:\programs\visualstudio\vc\include\ostream(236): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+         d:\programs\visualstudio\vc\include\ostream(216): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+         d:\programs\visualstudio\vc\include\ostream(209): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+         d:\programs\visualstudio\vc\include\ostream(202): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+         d:\programs\visualstudio\vc\include\ostream(196): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+         d:\programs\visualstudio\vc\include\ostream(1021): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+         d:\programs\visualstudio\vc\include\ostream(983): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)'
+                 with
+                 [
+                     _Ty=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+                 ]
+         d:\programs\visualstudio\vc\include\ostream(973): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+         d:\programs\visualstudio\vc\include\ostream(966): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+         d:\programs\visualstudio\vc\include\ostream(959): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+         d:\programs\visualstudio\vc\include\ostream(952): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+         d:\programs\visualstudio\vc\include\ostream(826): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+         d:\programs\visualstudio\vc\include\ostream(779): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+         d:\programs\visualstudio\vc\include\ostream(741): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+         d:\programs\visualstudio\vc\include\ostream(694): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+         f:\dysk google\rumci\projects\visualstudio 2015\onp\onp\onp.cpp(55): note: while trying to match the argument list '(std::ostream, std::basic_string<char,std::char_traits<char>,std::allocator<char>>)'
+     1>f:\dysk google\rumci\projects\visualstudio 2015\onp\onp\onp.cpp(65): error C3861: 'getline': identifier not found
+     1>Done Building Project "F:\Dysk Google\Rumci\Projects\VisualStudio 2015\ONP\ONP\ONP.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.86
