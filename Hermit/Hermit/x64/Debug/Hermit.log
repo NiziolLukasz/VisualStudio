@@ -1,0 +1,15 @@
+﻿Build started 29.12.2016 16:41:11.
+     1>Project "D:\Rumci\Projects\VisualStudio 2015\Hermit\Hermit\Hermit.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programs\VisualStudio\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\Hermit.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Hermit.cpp
+         Hermit.cpp
+     1>d:\rumci\projects\visualstudio 2015\hermit\hermit\hermit.cpp(83): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+       Link:
+         D:\Programs\VisualStudio\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Rumci\Projects\VisualStudio 2015\Hermit\x64\Debug\Hermit.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Rumci\Projects\VisualStudio 2015\Hermit\x64\Debug\Hermit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Rumci\Projects\VisualStudio 2015\Hermit\x64\Debug\Hermit.lib" /MACHINE:X64 x64\Debug\Hermit.obj
+         x64\Debug\stdafx.obj
+         Hermit.vcxproj -> D:\Rumci\Projects\VisualStudio 2015\Hermit\x64\Debug\Hermit.exe
+     1>Done Building Project "D:\Rumci\Projects\VisualStudio 2015\Hermit\Hermit\Hermit.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.54
